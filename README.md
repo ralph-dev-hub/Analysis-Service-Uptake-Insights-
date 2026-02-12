@@ -2,7 +2,7 @@
 ## SQL Data Exploration & Power BI Dashboard.
 
 ## Overview:
-*Project: Provide Insights on Health and Medical Supply Chain Management.*
+*PDREAMS Project- Reducing new HIV Infections among AGYW.*
 *Domain: Manufacturing Domain*
 
 *Over 15,000 AGYW accessed SRHR Services including contraceptive methods mix.
