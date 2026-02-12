@@ -1,29 +1,26 @@
-# Project-Business-Insights-360 (Data Analyst Challenge at Codebasics.io)
+# Analysis-Reporting-Insights 
 ## SQL Data Exploration & Power BI Dashboard.
 
-## Link to my Dashboard
-🔷Novypro Dashboard - https://www.novypro.com/project/business-insights-360-4
-
-🔷Power BI Service  - https://app.powerbi.com/reportEmbed?reportId=4fa34d70-3e56-45cc-bc68-a1ba47ec354c&autoAuth=true&ctid=5583c874-04ed-477b-8448-d0b72a6e40e2
-
 ## Overview:
-*Project: Provide Insights on Finance,sales,Marketing,Supply Chain to the Management.*
+*Project: Provide Insights on Health and Medical Supply Chain Management.*
 *Domain: Manufacturing Domain*
 
-*AtliQ Hardware is a company that Sells and Manufactures Hardware.They have Customers all over the world and Products under various categories.
-AtliQ Team use MS excel for data analysis but as the business expands globally company's Top management decides to use Power BI for data analytics.
-So Top management wanted the analytics team to Provide insights through SQl to make decisions and as later part of the Project a dashboard to be created for various key departments, so they can get insights on  important metrics and make data driven Decisions*
+*Over 15,000 AGYW accessed SRHR Services including contraceptive methods mix.
+Almost 14,500 adolescent girls received material support or educational subsidies including provision of school uniforms, dignity packs containing toiletries, and  assistance obtaining personal identiﬁcation documents.
+Over 400 AGYW completed ASPIRES, a ﬁnancial capability programme that equips participants with the skills in saving, employability, and entrepreneurship.
+
+Over 300 community members have successfully completed the SASA! programme, which equips communities to tackle gender inequality and gender-based violence. These community members include ward councillors, community leaders, community health workers, and parents/caregivers.*
 
 
  ## Task:
 
-*As an data analyst who has been provided with sample data and a mock-up dashboard to work on the following task.*
+*As the Strategic Information Lead, I developed this dashboard to make repeated tasks reproduciable.*
 
-* Write Sql Queries to Generate important insights and reports for product owners to make an data driven decisions.*
+* I wrote Sql Queries to Generate important insights and reports for managers to make an data driven decisions.*
 
 * Create Stored Procedures so that managers can extract the reports based on the filters.*
 
-* Create an fully functional Dashbord for Data Driven Decisiosn, which gives insights on various departments like Finance, sales, marketing, Supply chain.*
+* Create an fully functional Dashbord for Data Driven Decisiosn, which gives insights on various interventions like clinical services, education and economic empowermrnt.*
 
 
 ## Tech stack used in the project:
@@ -39,7 +36,6 @@ So Top management wanted the analytics team to Provide insights through SQl to m
 * Data was ready for Data Analysis and key metrics were Derived, for all the requests from Product owners*
 * Stored Procedures were created for the comples Queries so that Product owners can extract  reports by necessary filters*
 * An Data pipeline was established in deriving Metrics, with many Data Cleaning methods implemented in between.
-* Reports were generated for [Profit and loss Metrics](https://github.com/Abhilash17br/Project-Business-Insights-360/blob/main/Sql%20Insights-1%20Advance%20Finance%20Analysis..sql), [Deriving Top Metrics](https://github.com/Abhilash17br/Project-Business-Insights-360/blob/main/Sql%20Insights-2%20Advance%20Top%20Performer%20Analysis..sql), and Procedures to track [Forecast Accuracy for Supply Chain Department](https://github.com/Abhilash17br/Project-Business-Insights-360/blob/main/Sql%20Insights-3%20Advance%20Supply%20Chain%20%20Analysis..sql).
 
 ### PowerBI Dashboard
 
@@ -51,48 +47,10 @@ So Top management wanted the analytics team to Provide insights through SQl to m
 * A Designed dashboard with up to three levels of analysis, was able to ask the stakeholders many why’s, to their top performing, product, markets, customers, % changes and trends in P&L metrics, supply chain forecast accuracy for inventory management has helped to improve overall business.*
 * Created intuitive dashboards(Views), specifically targeted to various departments to give an overview of the company's performance.*
 
-✔ Finance View
-✔ Sales View
-✔ Marketing View
-✔ Supply Chain View
+✔ Service Access View
+✔ Geographic locations View
+✔ Information & Service Promotion View
+✔ Commoditis Supply View
 ✔ Executive View
-
-## Key Features in Finance View:
-* The profit and loss Statement, explains on varoius P&L Metrics form Gross Sales to Net Profit.BM indicates the  bench,ark , which is Either Last year or the Target.    which can be selected through Slicer Provided.
-* KPI’s for Net Sales, Gross Margin %, Net Profit %.*
-* Net sales Performance Trend in comparision with Target/Last Year which can be selected Dynamically.
-* Top / Bottom Product and Top / Bottom Customers based on Net Sales*
-
-## Key Features in Sales View:
-* Unit Economics 1: Net Sales vs Total Post Invoice Discount Amount and Pre-Invoice Discount Amount given by the Company*
-* Unit Economics 2: Total Cost of Goods Sold (COGS) spent by the Company and then finally got the actual Gross Margin*
-* Customer and Product Performance analysis based on Net Sales, Gross Margin and Gross Margin %*
-* Performance Matrix analysis for Market, Customer and Region based on Net Sales and Gross Margin %*
-* Sales Trend Tooltip for every single Customer based on Net Sales and Gross Margin %*
-
-## Key Features in Marketing View:
-* Unit Economics: There are some Operational Expenses spent for Product. After subtracting this Expenses got the actual scenario of Net Profit*
-* Performance Matrix analysis for Segment, Category and Product based on both “Net Sales & Net Profit %” and “Net Sales & Gross Margin %” by using a dynamic toggle button*
-
-## Key Features in Supply Chain View:
-* KPI’s for Forecast Accuracy, Net Error, ABS Error*
-* Risk Factor analysis*
-* Accuracy vs Net Error Trend analysis*
-* Key Metrics for both Customer and Products based on FA%, FA% LY, Net Error, Net Error%, Risk Factor*
-
-## Key Features in Executive View:
-Report Page for the Top Level Management of the Company who want to check on all key metrics and KPI's.
-* Market Share Trend analysis for AtliQ and other competitors*
-* Revenue analysis by Division and Channel*
-* Top 5 Products and Top 5 Customers by Revenue*
-* Key Insights by Sub Zone with Revenue Contribution % analysis*
-
-## Key Learnings.
-
-* The most helpful measures for senior management are the Gross Margin and Net Profit (Gross Margin - Operational Costs).
-* Gross Margin and Net Sales are more significant to the sales team than Net Profit since, in most cases, they have little to no control over operating costs.
-* Understanding the changes in marketing spend over time and how those changes affect revenue and gross margin is crucial for the marketing team.
-* Forecast Accuracy & Risk (Out of Stock or Excess Inventory) and Net Error & Absolute Error are crucial KPIs for the supply chain team.
-* One of the most helpful abilities that aids in the creation of insightful visuals is the managing of stakeholder expectations.
 
 # Thank you.
